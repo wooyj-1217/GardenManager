@@ -14,3 +14,12 @@ dependencies {
     compileOnly(libs.kotlin.gradlePlugin)
     compileOnly(libs.spotless.gradlePlugin)
 }
+
+gradlePlugin {
+    plugins {
+        register("androidApplicationCompose") {
+            id = "nowinandroid.android.application.compose"
+            implementationClass = "AndroidApplicationComposeConventionPlugin"
+        }
+    }
+}
