@@ -1,10 +1,21 @@
 
 import com.android.build.gradle.internal.dsl.BaseAppModuleExtension
-import com.google.samples.apps.nowinandroid.configureKotlinAndroid
+import com.wooyj.gardenmanager.configureKotlinAndroid
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
 
+
+
+/**
+ *
+ * android application에 적용될 plugin.
+ *
+ * @author wooyj
+ *
+ * @param param명 설명입력
+ *
+ */
 class AndroidApplicationConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {

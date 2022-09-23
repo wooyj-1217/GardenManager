@@ -1,5 +1,14 @@
 /**
  *
+ * Created on 2022/09/23.
+ *
+ * Description:
+ *
+ * @author wooyj
+ * @since 3.1.4
+ */
+/**
+ *
  * Created on 2022/09/19.
  *
  * Description:
@@ -22,5 +31,4 @@ class AndroidApplicationComposeConventionPlugin : Plugin<Project> {
             configureAndroidCompose(extension)
         }
     }
-
 }
