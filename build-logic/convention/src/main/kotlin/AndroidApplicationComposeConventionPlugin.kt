@@ -7,15 +7,7 @@
  * @author wooyj
  * @since 3.1.4
  */
-/**
- *
- * Created on 2022/09/19.
- *
- * Description:
- *
- * @author wooyj
- *
- */
+
 
 import com.android.build.gradle.internal.dsl.BaseAppModuleExtension
 import com.wooyj.gardenmanager.configureAndroidCompose
